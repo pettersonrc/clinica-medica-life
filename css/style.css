@@ -16,7 +16,6 @@ Azul Claro: #00cad1
 p {
     text-align: center;
     color: gray;
-    margin-bottom: 30px;
 }
 
 li {
@@ -139,6 +138,12 @@ li {
 
 /* Terceiro Container */
 
+.multiespecialidades {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .conteudo-multiespecialidades {
     display: flex;
     flex-direction: column;
@@ -170,6 +175,56 @@ li {
     color: gray;
 }
 
+.link-horarios {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .multiespecialidades a {
-    margin: 0 auto;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #00cad1;
+    color: white;
+}
+
+.multiespecialidades a:hover {
+    color: black;
+}
+
+/* Quarto Container */
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+iframe {
+    margin-bottom: 70px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #1a7479;
+}
+
+.conteudo-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 250px;
+}
+
+.conteudo-rodape img {
+    width: 150px;
+}
+
+.conteudo-rodape p {
+    color: white;
 }
