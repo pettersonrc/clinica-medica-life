@@ -1,0 +1,44 @@
+/* Estilizações Globais */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: aqua;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-topo {
+    width: 150px;
+}
+
+.links-topo {
+    display: flex;
+    gap: 20px;
+}
+
+.links-topo a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.links-topo a:hover {
+    color: black;
+}
