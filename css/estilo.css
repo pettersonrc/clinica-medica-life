@@ -86,12 +86,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
-    text-align: center;
 }
 
 .subtitulo {
     margin-top: 50px;
+    text-align: center;
 }
 
 .container-sobre {

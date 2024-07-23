@@ -1,0 +1,33 @@
+.primeira-sessão {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.links-medicos {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.links-medicos a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 18px;
+}
+
+.links-medicos a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00cad1;
+}
+
+.links-medicos a:hover {
+    color: #03878b;
+}
