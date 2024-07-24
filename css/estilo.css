@@ -168,12 +168,12 @@ p {
 
 #contato iframe {
     width: 100%;
-    margin-bottom: 50px;
 }
 
 /* Rodapé */
 
 footer {
+    margin-top: 50px;
     background-color: #0d6e71;
 }
 
